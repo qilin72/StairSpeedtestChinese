@@ -669,7 +669,7 @@ std::string exportRender(std::string resultpath, vector<nodeInfo> nodes, bool ex
         total_width += maxSpeed_width;
 
     //generating information
-    std::string gentime = "Generated at "+getTime(3);
+    std::string gentime = "Generated at "+getTime(3)+ "by CM.在线测速";
     std::string traffic = "Traffic used : "+speedCalc((double)total_traffic)+". Working Node(s) : ["+std::to_string(onlines)+"/"+std::to_string(node_count)+"]";
     std::string about = "By Stair Speedtest Reborn " VERSION ".";
 
